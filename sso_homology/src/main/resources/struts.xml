@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <package name="sso" namespace="/sso" extends="struts-default">
+        <action name="doLogin" class="lee.sso.action.SSOAction" method="doLogin">
+            <result name="success" type="redirect">${gotoUrl}</result>
+        </action>
+    </package>
+    <package name="domain1" namespace="/domain1" 
+             extends="struts-default">
+        <action name="main" class="domain1.Domain1Action"
+                method="main">
+            <result name="success">/domain1.jsp</result>
+            <result name="login">/login.jsp</result>
+        </action>
+    </package>
+    <package name="domain2" namespace="/domain2"
+             extends="struts-default">
+        <action name="main" class="domain2.Domain2Action"
+                method="main">
+            <result name="success">/domain2.jsp</result>
+            <result name="login">/login.jsp</result>
+        </action>
+    </package>
+</struts>
