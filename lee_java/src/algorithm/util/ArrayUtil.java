@@ -13,13 +13,20 @@ public class ArrayUtil {
     private ArrayUtil() {
     }
 
-    public static void printArr(int[] arr) {
-        System.out.print("\n[");
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i]);
-            System.out.print(", ");
+    public static int[] getFixIntArr(int length) {
+        if (length < 3) {
+            try {
+                throw new Exception("数量太小");
+            } catch (Exception e) {
+                e.printStackTrace();
+                return new int[] {0};
+            }
         }
-        System.out.print("]");
+
+        int[] result = new int[length];
+        for (int i = 0; i < length; i++)
+            result[i] = RANDOM.nextInt(100);
+        return result;
     }
 
     /**
@@ -28,10 +35,7 @@ public class ArrayUtil {
      */
     public static int[] getIntArr() {
         int length = RANDOM.nextInt(16) + 6;
-        int[] result = new int[length];
-        for (int i = 0; i < length; i++)
-            result[i] = RANDOM.nextInt(100);
-        return result;
+        return getFixIntArr(length);
     }
 
     public static void printArr(int[] arr, boolean sorted) {
