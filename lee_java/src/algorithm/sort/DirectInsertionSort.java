@@ -13,7 +13,7 @@ public class DirectInsertionSort {
 
     private static void sort(int[] arr) {
 
-        // 第一位当作长度为 1 且为升序的数组，不需要动
+        // 第一位当作长度为 1 且为升序的数组
         for (int i = 1; i < arr.length; i++) {
             int location = i - 1; // location 为升序数组最后一位的位置
             // 得到旗帜 arr[i]
