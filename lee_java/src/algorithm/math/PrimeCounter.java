@@ -6,28 +6,33 @@ public class PrimeCounter {
 
     public static void main(String[] args) {
         Scanner cin = new Scanner(System.in);
-        int m, n, index, next;
+        int m, n, index, count;
         while (cin.hasNext()) {
             m = cin.nextInt();
             n = cin.nextInt();
             index = 0;
-            next = 0;
+            count = 0;
             if (m > n) {
                 m ^= n;
                 n ^= m;
                 m ^= n;
             }
-            for (int i = m; i <= n; i++) {
+            for (int i = 2; ; i++) {
                 if (isPrime(i)) {
-                    System.out.print(i + " ");
-                    index++;
+                    count++;
+                    if (count >= m) {
+                        index++;
+                        System.out.print(i + " ");
+                        if (index % 10 == 0) {
+                            System.out.println();
+                            System.out.println();
+                        }
+                    }
                 }
-                if (index % 10 == 0 && next != index) {
-                    System.out.println();
-                    next = index;
-                }
+
+                if (n == count) break;
             }
-            if (index % 10 != 0) System.out.println();
+//            if (index % 10 != 0) System.out.println();
         }
     }
 
