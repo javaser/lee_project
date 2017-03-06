@@ -11,7 +11,8 @@
     <!-- 若使用 classpath 则需在此定义，否则将此去掉 -->
     <context-param>
         <param-name>shiroConfigLocations</param-name>
-        <param-value>classpath:shiroWeb.ini</param-value>
+        <!--<param-value>classpath:shiroWeb.ini</param-value>-->
+        <param-value>classpath:customizeRealm.ini</param-value>
     </context-param>
 
     <listener>
