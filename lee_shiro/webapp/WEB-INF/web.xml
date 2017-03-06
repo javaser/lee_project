@@ -21,7 +21,12 @@
     <filter>
         <filter-name>ShiroFilter</filter-name>
         <filter-class>org.apache.shiro.web.servlet.ShiroFilter</filter-class>
-        <!-- 若配置文件在 /WEB-INF/ 下则在此配置 -->
+        <!-- 若配置文件在 /WEB-INF/ 下则在此配置
+        <init-param>
+            <param-name>configPath</param-name>
+            <param-value>/WEB-INF/shiroWeb.ini</param-value>
+        </init-param>
+        -->
     </filter>
 
     <filter-mapping>
