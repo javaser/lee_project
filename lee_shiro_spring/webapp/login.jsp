@@ -3,7 +3,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, inital-scale=1">
     <meta charset="UTF-8">
     <title>login</title>
     <style>.error{color:red;}</style>
