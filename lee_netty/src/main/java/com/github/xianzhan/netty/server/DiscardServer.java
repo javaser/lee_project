@@ -1,6 +1,6 @@
 package com.github.xianzhan.netty.server;
 
-import com.github.xianzhan.netty.handler.DiscardServerHandler;
+import com.github.xianzhan.netty.handler.TimeServerHandler;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
@@ -28,7 +28,10 @@ public class DiscardServer {
                     .childHandler(new ChannelInitializer<SocketChannel>() {
                         @Override
                         public void initChannel(SocketChannel socketChannel) throws Exception {
-                            socketChannel.pipeline().addLast(new DiscardServerHandler());
+                            // socketChannel.pipeline().addLast(new DiscardServerHandler());
+
+                            // 使用 TimeServerHandler
+                            socketChannel.pipeline().addLast(new TimeServerHandler());
                         }
                     })
                     .option(ChannelOption.SO_BACKLOG, 128)
