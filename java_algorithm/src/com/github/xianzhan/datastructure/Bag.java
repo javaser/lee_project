@@ -1,5 +1,7 @@
 package com.github.xianzhan.datastructure;
 
+import com.github.xianzhan.util.NodeSingle;
+
 import java.util.Iterator;
 
 public class Bag<T> implements Iterable<T> {
@@ -78,8 +80,8 @@ public class Bag<T> implements Iterable<T> {
         bag.add(1);
         bag.add(2);
         bag.add(3);
-        System.out.println(bag.isEmpty());
-        System.out.println(bag.size());
+        System.out.println("是否为空：" + bag.isEmpty());
+        System.out.println("size = " + bag.size());
 
         for (int i : bag) {
             System.out.println(i);
