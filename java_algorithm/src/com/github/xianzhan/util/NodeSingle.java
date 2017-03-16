@@ -1,8 +1,8 @@
-package com.github.xianzhan.datastructure;
+package com.github.xianzhan.util;
 
 public class NodeSingle<T> {
-    T t;
-    NodeSingle next;
+    public T t;
+    public NodeSingle next;
 
     public NodeSingle(T t) {
         this.t = t;
