@@ -30,7 +30,7 @@ public class Queue<T> implements Iterable<T> {
     }
 
     /**
-     * 删除最后一个元素
+     * 删除最近添加元素
      */
     T dequeue() {
         if (size == 0) {
@@ -81,13 +81,13 @@ public class Queue<T> implements Iterable<T> {
         queue.enqueue(2);
         queue.enqueue(3);
         System.out.println("size = " + queue.size());
-//        System.out.println(queue.dequeue());
+        System.out.println(queue.dequeue());
 //        System.out.println(queue.size());
-//        System.out.println(queue.dequeue());
+        System.out.println(queue.dequeue());
 //        System.out.println(queue.size());
-//        System.out.println(queue.dequeue());
+        System.out.println(queue.dequeue());
 //        System.out.println(queue.size());
-//        System.out.println(queue.dequeue());
+        System.out.println(queue.dequeue());
         for (int i : queue) {
             System.out.println(i);
         }
