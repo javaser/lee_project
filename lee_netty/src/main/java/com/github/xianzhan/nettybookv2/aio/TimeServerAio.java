@@ -1,6 +1,6 @@
-package com.github.xianzhan.aio;
+package com.github.xianzhan.nettybookv2.aio;
 
-import com.github.xianzhan.aio.handler.AsyncTimeServerHandler;
+import com.github.xianzhan.nettybookv2.aio.handler.AsyncTimeServerHandler;
 
 public class TimeServerAio {
 
