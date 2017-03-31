@@ -1,4 +1,4 @@
-package com.github.xianzhan.learn.a.handler;
+package com.github.xianzhan.nettybookv2.basic.none.handler;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;

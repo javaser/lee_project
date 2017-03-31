@@ -1,6 +1,6 @@
-package com.github.xianzhan.learn.a;
+package com.github.xianzhan.nettybookv2.basic.none;
 
-import com.github.xianzhan.learn.a.handler.TimeClientHandler;
+import com.github.xianzhan.nettybookv2.basic.none.handler.TimeClientHandler;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
