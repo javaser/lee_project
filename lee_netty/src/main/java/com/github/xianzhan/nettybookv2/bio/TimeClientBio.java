@@ -1,4 +1,4 @@
-package com.github.xianzhan.bio;
+package com.github.xianzhan.nettybookv2.bio;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,6 +1,6 @@
-package com.github.xianzhan.bio;
+package com.github.xianzhan.nettybookv2.bio;
 
-import com.github.xianzhan.bio.handler.TimeServerHandler;
+import com.github.xianzhan.nettybookv2.bio.handler.TimeServerHandler;
 
 import java.net.ServerSocket;
 import java.net.Socket;
