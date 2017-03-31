@@ -1,4 +1,4 @@
-package com.github.xianzhan.nio;
+package com.github.xianzhan.nettybookv2.nio;
 
 public class TimeClientNio {
     public static void main(String[] args) {
