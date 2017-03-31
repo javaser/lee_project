@@ -1,4 +1,4 @@
-package com.github.xianzhan.learn.c.handler;
+package com.github.xianzhan.nettybookv2.basic.length.handler;
 
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerAdapter;

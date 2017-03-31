@@ -1,6 +1,6 @@
-package com.github.xianzhan.learn.c;
+package com.github.xianzhan.nettybookv2.basic.length;
 
-import com.github.xianzhan.learn.c.handler.EchoServerHandler;
+import com.github.xianzhan.nettybookv2.basic.length.handler.EchoServerHandler;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
