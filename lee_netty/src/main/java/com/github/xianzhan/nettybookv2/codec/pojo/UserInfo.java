@@ -1,4 +1,4 @@
-package com.github.xianzhan.learn.e;
+package com.github.xianzhan.nettybookv2.codec.pojo;
 
 
 import java.io.Serializable;
