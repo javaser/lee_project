@@ -1,6 +1,6 @@
-package com.github.xianzhan.learn.e;
+package com.github.xianzhan.nettybookv2.codec.msgpack;
 
-import com.github.xianzhan.learn.e.handler.EchoClientHandler;
+import com.github.xianzhan.nettybookv2.codec.msgpack.handler.EchoClientHandler;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;

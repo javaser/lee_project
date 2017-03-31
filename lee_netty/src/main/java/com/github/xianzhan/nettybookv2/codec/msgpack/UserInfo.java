@@ -1,4 +1,4 @@
-package com.github.xianzhan.learn.d;
+package com.github.xianzhan.nettybookv2.codec.msgpack;
 
 
 import java.io.Serializable;

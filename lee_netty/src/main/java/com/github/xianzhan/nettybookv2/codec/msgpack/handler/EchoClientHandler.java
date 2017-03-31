@@ -1,6 +1,6 @@
-package com.github.xianzhan.learn.e.handler;
+package com.github.xianzhan.nettybookv2.codec.msgpack.handler;
 
-import com.github.xianzhan.learn.e.UserInfo;
+import com.github.xianzhan.nettybookv2.codec.msgpack.UserInfo;
 import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
 
