@@ -1,7 +1,7 @@
-package com.github.xianzhan.learn.f.netty;
+package com.github.xianzhan.nettybookv2.codec.protobuf.netty;
 
-import com.github.xianzhan.learn.f.netty.handler.SubReqServerHandler;
-import com.github.xianzhan.learn.f.protobuf.SubscribeReqProto;
+import com.github.xianzhan.nettybookv2.codec.protobuf.netty.handler.SubReqServerHandler;
+import com.github.xianzhan.nettybookv2.codec.protobuf.protobuf.SubscribeReqProto;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;

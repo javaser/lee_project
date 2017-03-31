@@ -1,6 +1,6 @@
-package com.github.xianzhan.learn.f;
+package com.github.xianzhan.nettybookv2.codec.protobuf;
 
-import com.github.xianzhan.learn.f.protobuf.SubscribeReqProto;
+import com.github.xianzhan.nettybookv2.codec.protobuf.protobuf.SubscribeReqProto;
 import com.google.protobuf.InvalidProtocolBufferException;
 
 public class TestSubscribeReqProto {
