@@ -1,4 +1,4 @@
-package com.github.xianzhan.netty.handler;
+package com.github.xianzhan.netty.demo.handler;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;

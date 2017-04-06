@@ -1,6 +1,6 @@
-package com.github.xianzhan.netty.server;
+package com.github.xianzhan.netty.demo.server;
 
-import com.github.xianzhan.netty.handler.TimeServerHandler;
+import com.github.xianzhan.netty.demo.handler.TimeServerHandler;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
