@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- IoC -->
+    <!--
+     控制反转，将以前需要 new 的工作交给 Spring，
+     需要时则向 Spring 申请，默认为单例，此处为原型
+    -->
+    <bean id="xiaoming" class="com.github.xianzhan.bean.Student"
+          scope="prototype">
+        <!-- DI -->
+        <!--
+         依赖注入，将值注入到属性里，无需配值
+        -->
+        <property name="id" value="100000"/>
+        <property name="name" value="小明"/>
+    </bean>
+</beans>
