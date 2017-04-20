@@ -1,22 +1,35 @@
 package com.github.xianzhan.bean;
 
 public class Student {
-    /**
-     * 范围 100000 ~ 999999
-     */
-    private int id;
 
-    /**
-     * 姓名
-     */
+    private Integer id;
+
     private String name;
+
+    private Integer score;
+
+    public Student() {
+    }
+
+    public Student(String name, Integer score) {
+        this.name = name;
+        this.score = score;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public Integer getScore() {
+        return score;
+    }
+
+    public void setScore(Integer score) {
+        this.score = score;
+    }
 
     public int getId() {
         return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getName() {
@@ -32,6 +45,7 @@ public class Student {
         return "Student{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
+                ", score=" + score +
                 '}';
     }
 }
