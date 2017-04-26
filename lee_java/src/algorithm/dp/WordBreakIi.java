@@ -3,9 +3,9 @@ package algorithm.dp;
 import java.util.*;
 
 /**
- * Given a string s and a dictionary of words dict,
- * add spaces in s to construct a sentence
- * where each word is a valid dictionary word.
+ * Given basic string s and basic dictionary of words dict,
+ * add spaces in s to construct basic sentence
+ * where each word is basic valid dictionary word.
  * Return all such possible sentences.
  * For example, given
  * s ="catsanddog",

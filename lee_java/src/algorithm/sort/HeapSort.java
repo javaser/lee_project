@@ -35,13 +35,13 @@ public class HeapSort {
             heapOne(a, n, 0);
         }
 
-//        System.arraycopy(temp, 0, a, 0, temp.length);
+//        System.arraycopy(temp, 0, basic, 0, temp.length);
         return temp;
     }
 
     /*
     节点 k 进行筛选
-    a: 堆数据，n: 堆中有效数据个数，k: 待筛选节点
+    basic: 堆数据，n: 堆中有效数据个数，k: 待筛选节点
      */
     private static void heapOne(int[] a, int n, int k) {
         int k1 = 2 * k + 1;

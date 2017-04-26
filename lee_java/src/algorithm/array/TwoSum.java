@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 给定一个整数数组和一个值target，求两个下标i、j，使得a[i] + a[j] = target，返回下标。
+ * 给定一个整数数组和一个值target，求两个下标i、j，使得a[i] + basic[j] = target，返回下标。
  */
 public class TwoSum {
     public int[] twoSum(int[] nums, int target) {

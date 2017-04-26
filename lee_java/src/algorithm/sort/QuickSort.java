@@ -28,7 +28,7 @@ public class QuickSort {
 
     private static void quickSort(int[] a, int left, int right) {
         if (left < right) {
-            int middle = getMiddle(a, left, right);  //将 a 数组进行一分为二
+            int middle = getMiddle(a, left, right);  //将 basic 数组进行一分为二
             quickSort(a, left, middle - 1);       //对左边进行递归排序
             quickSort(a, middle + 1, right);       //对右边进行递归排序
         }
